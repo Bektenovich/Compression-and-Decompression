@@ -76,7 +76,6 @@ string huffmanEncode(const string& text) {
 int main() {
     string text = "Jenishbek Agay";
     string encodedText = huffmanEncode(text);
-    cout << "Original text: " << text << endl;
     cout << "Encoded text: " << encodedText << endl;
 
     return 0;
