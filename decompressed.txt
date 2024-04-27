@@ -68,7 +68,7 @@ string huffmanDecode(Node* root, string encodedText) {
 
 int main() {
     string text = "Jenishbek Agay";
-    string encodedText = "010010101110111000110001010110110010011010010011001011000010000111011011101011001100100000";
+    string encodedText = "1001010110110101000110000101001110001111111010110110";
 
     Node* root = buildHuffmanTree(text);
     string decodedText = huffmanDecode(root, encodedText);
